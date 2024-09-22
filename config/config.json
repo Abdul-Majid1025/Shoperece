@@ -1,0 +1,35 @@
+{
+    "development": {
+        "username": "ShopereceDB_owner",
+        "password": "WTxabI91QkJO",
+        "database": "ShopereceDB",
+        "host": "ep-fancy-cloud-a5adpupg.us-east-2.aws.neon.tech",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+            }
+        }
+    },
+    "test": {
+        "username": "ShopereceDB_owner",
+        "password": "WTxabI91QkJO",
+        "database": "ShopereceDB",
+        "host": "ep-fancy-cloud-a5adpupg.us-east-2.aws.neon.tech",
+        "dialect": "postgres"
+    },
+    "production": {
+        "username": "ShopereceDB_owner",
+        "password": "WTxabI91QkJO",
+        "database": "ShopereceDB",
+        "host": "ep-fancy-cloud-a5adpupg.us-east-2.aws.neon.tech",
+        "dialect": "postgres",
+        "dialectOptions": {
+            "ssl": {
+                "require": true,
+                "rejectUnauthorized": false
+            }
+        }
+    }
+}

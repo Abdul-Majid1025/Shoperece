@@ -1,0 +1,60 @@
+.signupcontainer {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(251, 251, 255);
+}
+
+.signupcontainer .signupcontainer2 {
+    display: flex;
+}
+
+.signupcontainer .half1 {
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    /* margin: 0 auto; */
+    padding-left: 10%;
+    /* flex-direction: column; */
+}
+
+.signupcontainer .half2 {
+    width: 50%;
+    height: 100vh;
+    /* object-fit: fill; */
+}
+
+.signupcontainer .half2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.signupcontainer .signupcontainer2 .half1 .row {
+    margin: 0;
+    padding: 0;
+}
+
+.signupcontainer .signupcontainer2 .half1 label {
+    margin: 0;
+    padding: 0;
+}
+
+.signupcontainer .signupcontainer2 .half1 .text {
+    padding-left: 10px;
+    opacity: 0.6;
+}
+
+.signupcontainer .signupcontainer2 .half1 .logo {
+    /* width: 80px; */
+    height: 80px;
+    margin-bottom: 20px;
+    margin-top: 10%;
+}
+
+.signupcontainer .signupcontainer2 .half1 .logo img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+}

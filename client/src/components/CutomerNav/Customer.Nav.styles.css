@@ -1,0 +1,13 @@
+.shopingcartdiv {
+  position: relative;
+}
+.cartlength {
+  position: relative;
+  top: -10px;
+  left: -5px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+  font-size: 12px;
+}

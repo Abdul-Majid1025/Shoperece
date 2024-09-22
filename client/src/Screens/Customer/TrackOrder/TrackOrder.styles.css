@@ -1,0 +1,43 @@
+.trackordercontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.trackordercontainer .myrow {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trackordercontainer .orderno {
+    margin-top: 60px;
+}
+
+.trackordercontainer .myrow.center {
+    justify-content: center;
+}
+
+.trackordercontainer .myrow.top {
+    align-items: flex-start;
+}
+
+.trackordercontainer .mycol-2 {
+    flex: 2 1 50rem;
+}
+
+.trackordercontainer .card {
+    border: 0.1rem #c0c0c0 solid;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.trackordercontainer .card-body {
+    padding: 1rem;
+}
+
+.trackordercontainer .card-body>* {
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,159 @@
+.checkoutAddresscontainer {
+  margin: 20px;
+  margin-right: 0px;
+  margin-top: 100px;
+}
+
+.checkoutAddresscontainer .addresstitle {
+  font-weight: normal;
+  /* margin-left: 10px; */
+  letter-spacing: 3px;
+}
+
+.checkoutAddresscontainer .addresss {
+  font-weight: normal;
+  /* margin-left: 10px; */
+}
+
+.checkoutAddresscontainer .checkoutAddresscontainer2 {
+  /* width: 100%; */
+  /* height: 100%; */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.checkoutAddresscontainer .checkoutAddresscontainer2 .container1 {
+  width: 65%;
+}
+
+.checkoutAddresscontainer .checkoutAddresscontainer2 .addresscontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-content: center;
+    align-items: center; */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.checkoutAddresscontainer .address1 {
+  padding: 20px;
+  padding-left: 0;
+  width: 100%;
+  padding-right: 50px;
+  border-right: 1px solid lightgray;
+  padding-bottom: 0;
+  /* height: 450px; */
+}
+
+.checkoutAddresscontainer .address {
+  padding: 20px;
+  padding-left: 0;
+  width: 100%;
+  padding-right: 50px;
+
+  padding-bottom: 0;
+  /* height: 450px; */
+}
+
+.checkoutAddresscontainer .MuiInput-input {
+  border-bottom: 1px solid black !important;
+}
+
+.checkoutAddresscontainer .MuiFormLabel-root {
+  color: black !important;
+}
+
+.checkoutAddresscontainer .defaultbtn {
+  color: #54bab9;
+  font-size: 18px;
+}
+
+.checkoutAddresscontainer .defaultbtn2 {
+  color: #54bab9;
+  font-size: 12px;
+  background-color: white;
+  border: 1px solid #54bab9;
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-bottom: 0;
+}
+
+.checkoutAddresscontainer .fields {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 20px;
+}
+.lgcheckout {
+  margin: 0 20px;
+}
+.checkoutAddresscontainer .checkoutAddresscontainer2 .checkoutcontaineer {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.checkoutAddresscontainer .tabletScreen .addresscontainer {
+  width: 100%;
+}
+
+.checkoutAddresscontainer .tabletScreen .checkoutcontaineer {
+  width: 100%;
+  padding: 10px;
+  /* margin: 20px; */
+}
+
+.checkoutAddresscontainer .tabletaddress .addresscontainer {
+  border: none;
+  margin-left: 20px !important;
+}
+
+.checkoutAddresscontainer .tabletaddresscontainer {
+  margin-left: 20px;
+}
+
+/* @media screen and (max-width: 1110px) {
+    .checkoutAddresscontainer .checkoutAddresscontainer2 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .checkoutAddresscontainer .checkoutAddresscontainer2 .container1 {
+        width: 100%;
+    }
+    .checkoutAddresscontainer .checkoutAddresscontainer2 .checkoutcontaineer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+} */
+
+.checkoutAddresscontainer .tabheader {
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 500px) {
+  .checkoutAddresscontainer .tabheader {
+    margin-right: 20px;
+  }
+  .checkoutAddresscontainer {
+    margin-left: 0;
+  }
+  .checkoutAddresscontainer .addresstitle {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  .checkoutAddresscontainer .addresss {
+    font-size: 12px;
+  }
+  .checkoutAddresscontainer .defaultbtn {
+    font-size: 12px;
+  }
+}

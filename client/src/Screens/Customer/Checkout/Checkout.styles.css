@@ -1,0 +1,48 @@
+.checkcontainer .card-header {
+  background-color: white !important;
+  font-weight: 500;
+  letter-spacing: 1px;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.checkcontainer .list-group-item {
+  padding: 13px;
+  font-size: 14px;
+}
+
+.checkcontainer .couponadded {
+  background-color: white;
+  border: 1px solid #54bab9;
+  padding: 5px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkcontainer .browsecoupon {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: end;
+  font-size: 12px;
+}
+
+.checkcontainer .lastlist {
+  font-size: 16px;
+}
+
+.checkcontainer .checkoutbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+  width: 15rem;
+  /* border: 1px solid #54bab9;
+    background-color: #54bab9; */
+  font-size: 15px;
+}
+
+.checkcontainer .checkoutbtn:hover {
+  background-color: rgb(65, 127, 148);
+}

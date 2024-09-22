@@ -1,0 +1,15 @@
+.editprofilecontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.editprofilecontainer .profileform {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px !important;
+}
+
+.editprofilecontainer .profileform .row {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,111 @@
+.allproductscontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.allproductscontainer .addproductdiv {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.allproductscontainer .addproductdiv .createbtn {
+    background: none;
+    border: 1px solid #bcc2c1 !important;
+    color: black;
+    border-radius: 0 !important;
+    text-decoration: none;
+}
+
+.allproductscontainer .addproductdiv .createbtn:hover {
+    background: black;
+    color: white !important;
+}
+
+.allproductscontainer .filteroptions {
+    display: flex;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    border-bottom: 1px solid #bcc2c1 !important;
+    margin-bottom: 10px;
+}
+
+.allproductscontainer .filteroptions span {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.allproductscontainer .filteroptions span:first-child {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: black 2px solid;
+}
+
+.allproductscontainer .row1 {
+    margin: 10px;
+    padding: 20px;
+}
+
+.allproductscontainer .row2 {
+    /* margin: 20px 0; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 1px solid #bcc2c1;
+}
+
+.allproductscontainer .row3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-bottom: 10px;
+}
+
+.allproductscontainer .box .searchdiv .searchicon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.allproductscontainer .box .searchdiv {
+    position: relative;
+}
+
+.allproductscontainer .box {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.allproductscontainer .box .search {
+    /* margin-left: 4px; */
+    width: 100%;
+    /* border-radius: 5px; */
+    text-indent: 30px;
+}
+
+.allproductscontainer .row .col-md-1 {
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 2px !important;
+    max-width: 100%;
+}
+
+.allproductscontainer .filterbtns {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.allproductscontainer .savedbtn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.allproductscontainer .editproductbtn {
+    background-color: black !important;
+    padding: 5px 10px;
+    color: white !important;
+}

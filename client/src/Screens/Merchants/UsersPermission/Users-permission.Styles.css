@@ -1,0 +1,13 @@
+.userpermisioncontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.userpermisioncontainer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.userpermisioncontainer .container1 {
+    margin-top: 70px !important;
+}

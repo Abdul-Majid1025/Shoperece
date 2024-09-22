@@ -1,0 +1,13 @@
+.settingscontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.settingscontainer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.settingscontainer .container1 {
+    margin-top: 70px !important;
+}

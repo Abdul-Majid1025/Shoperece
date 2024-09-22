@@ -1,0 +1,78 @@
+.alldiscountcontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.alldiscountcontainer .container1 {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 20px;
+}
+
+.alldiscountcontainer .inrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.alldiscountcontainer .button1 {
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffc444;
+    color: #fefefe !important;
+}
+
+.alldiscountcontainer .button1:hover {
+    background-color: #fdcb5f;
+    color: #fefefe;
+}
+
+.alldiscountcontainer .container2 {
+    position: relative;
+    background-color: white;
+    margin-top: 5%;
+    width: 100%;
+    height: 430px;
+    border-radius: 6px;
+    border: 1px solid #d6d1d5;
+    box-shadow: 0px 1px 2px rgb(197, 193, 193);
+}
+
+.alldiscountcontainer .nav {
+    overflow: hidden;
+}
+
+.alldiscountcontainer .nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.alldiscountcontainer .DiscountCode {
+    position: relative;
+    margin-left: 3%;
+    width: 60%;
+    margin-top: -2%;
+}
+
+.alldiscountcontainer .Description {
+    padding-top: 10px;
+    position: absolute;
+    margin-top: -3%;
+}
+
+.alldiscountcontainer .Status {
+    position: relative;
+}
+
+.alldiscountcontainer .Dates {
+    position: absolute;
+    margin-left: 85%;
+}

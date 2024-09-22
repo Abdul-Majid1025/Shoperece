@@ -1,0 +1,19 @@
+/* .sec_2 {
+  margin-left: 70px;
+} */
+.prod_title,
+.prod_price,
+.prod_btn {
+  text-align: center;
+}
+.prod_price {
+  font-size: 1.375rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.prod_btn {
+  margin-left: 30%;
+}
+.product-cont {
+  display: inline-block;
+  margin: 10px;
+}

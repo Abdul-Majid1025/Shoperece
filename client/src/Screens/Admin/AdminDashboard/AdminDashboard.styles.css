@@ -1,0 +1,113 @@
+.admindashboardcontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.admindashboardcontainer .viewproductdiv {
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admindashboardcontainer .viewproductdiv .createbtn {
+    background: none;
+    border: 1px solid #bcc2c1 !important;
+    color: black;
+    border-radius: 0 !important;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.admindashboardcontainer .viewproductdiv .createbtn:hover {
+    background: black;
+    color: white !important;
+}
+
+.admindashboardcontainer .filteroptions {
+    display: flex;
+    /* padding-bottom: 10px; */
+    padding-top: 10px;
+    border-bottom: 1px solid #bcc2c1 !important;
+    margin-bottom: 10px;
+}
+
+.admindashboardcontainer .filteroptions span {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.admindashboardcontainer .filteroptions span:first-child {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: black 2px solid;
+}
+
+.admindashboardcontainer .row1 {
+    margin: 10px;
+    padding: 20px;
+}
+
+.admindashboardcontainer .row2 {
+    /* margin: 20px 0; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    border-bottom: 1px solid #bcc2c1;
+}
+
+.admindashboardcontainer .row3 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    padding-bottom: 10px;
+}
+
+.admindashboardcontainer .box .searchdiv .searchicon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.admindashboardcontainer .box .searchdiv {
+    position: relative;
+}
+
+.admindashboardcontainer .box {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.admindashboardcontainer .box .search {
+    /* margin-left: 4px; */
+    width: 100%;
+    /* border-radius: 5px; */
+    text-indent: 30px;
+}
+
+.admindashboardcontainer .row .col-md-1 {
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 2px !important;
+    max-width: 100%;
+}
+
+.admindashboardcontainer .filterbtns {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.admindashboardcontainer .savedbtn {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.admindashboardcontainer .addquantity {
+    margin: 0;
+    padding: 2.5px 10px;
+    margin-left: 10px;
+    /* width: 100%; */
+}

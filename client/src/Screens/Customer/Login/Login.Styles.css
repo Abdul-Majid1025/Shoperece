@@ -1,0 +1,17 @@
+.customerLogin .text {
+    padding-left: 10px;
+    opacity: 0.6;
+}
+
+.customerLogin .forget {
+    padding-left: 10px;
+    border: none;
+    color: blue;
+    cursor: pointer;
+    background-color: white;
+}
+
+.customerLogin label {
+    margin: 0;
+    padding: 0;
+}

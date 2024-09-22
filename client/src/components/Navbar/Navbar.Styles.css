@@ -1,0 +1,76 @@
+.shop_nav .my-logo {
+  width: 12.5rem;
+  height: 3.125rem;
+}
+
+.shop_nav .search_nav {
+  margin-left: 3.125rem;
+  width: 40rem;
+  text-indent: 40px;
+}
+
+.shop_nav .st_name {
+  margin-left: 12.5rem;
+}
+
+.shop_nav .nav_shop {
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.15);
+}
+
+.shop_nav {
+  background-color: rgb(255, 255, 255) !important;
+  position: fixed !important;
+  z-index: 100 !important;
+  width: 100% !important;
+  top: 0;
+}
+
+/* body {
+  background-color: #000;
+} */
+
+.shop_nav .searchicon {
+  position: absolute;
+  left: 60px;
+  top: 6px;
+  color: cornflowerblue;
+  height: 5px;
+}
+
+.shop_nav .searchdiv {
+  position: relative;
+}
+
+.shop_nav .round-shop-name {
+  border-radius: 100%;
+  background-color: aquamarine;
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+  text-align: center;
+}
+
+.shop_nav .Mer-Name {
+  display: inline-block;
+}
+
+.navbar-collapse {
+  display: flex !important;
+  flex-grow: 0 !important;
+}
+
+.navbar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.shop_nav .dropdown-menu.show {
+  display: block;
+  position: absolute !important;
+  right: 2px !important;
+}
+
+.shop_nav .dropdown-menu[data-bs-popper] {
+  left: -60px;
+}

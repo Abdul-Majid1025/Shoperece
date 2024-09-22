@@ -1,0 +1,125 @@
+.storescontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.storescontainer .storescontainer2 {
+    display: flex;
+}
+
+.storescontainer .half1 {
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    /* margin: 0 auto; */
+    /* flex-direction: column; */
+}
+
+.storescontainer .half2 {
+    width: 50%;
+    height: 100vh;
+    /* object-fit: fill; */
+}
+
+.storescontainer .half2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.storescontainer .storescontainer2 .half1 .row {
+    margin: 0;
+    padding: 0;
+}
+
+.storescontainer .storescontainer2 .half1 label {
+    margin: 0;
+    padding: 0;
+}
+
+.storescontainer .storescontainer2 .half1 .text {
+    padding-left: 10px;
+    opacity: 0.6;
+}
+
+.storescontainer .storescontainer2 .half1 .logo {
+    /* width: 80px; */
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.storescontainer .storescontainer2 .half1 .logo img {
+    /* width: 100%; */
+    height: 100%;
+    object-fit: contain;
+}
+
+.storescontainer .forget {
+    border: none;
+    color: blue;
+    cursor: pointer;
+    background-color: white;
+}
+
+.storescontainer .storescontainer2 .st_name {
+    margin-left: 12.5rem;
+}
+
+.storescontainer .storescontainer2 .round-shop-name {
+    border-radius: 100%;
+    background-color: aquamarine;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+}
+
+.storescontainer .storescontainer2 .Mer-Name {
+    display: inline-block;
+}
+
+.storescontainer .storescontainer2 .r1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.storescontainer .storescontainer2 .r2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.storescontainer .storescontainer2 .createstore {
+    background-color: rgb(0, 128, 96);
+    color: white !important;
+    padding: 10px;
+    border: none;
+}
+
+.storescontainer .storescontainer2 .createstore:hover {
+    background-color: rgb(25, 173, 136);
+    color: white;
+    padding: 10px;
+    border: none;
+}
+
+.storescontainer .storescontainer2 .storeheading {
+    margin-left: 10px;
+}
+
+.storescontainer .storescontainer2 .stores .store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storescontainer .storescontainer2 .stores .store:hover {
+    background-color: rgb(250, 240, 240) !important;
+}

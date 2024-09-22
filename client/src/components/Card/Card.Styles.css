@@ -1,0 +1,222 @@
+.product,
+.wishlist {
+  margin: 10px;
+}
+
+.product .originalprice,
+.wishlist .originalprice {
+  font-size: 13px;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.product .discountedPrice,
+.wishlist .discountedPrice {
+  font-weight: 700;
+  font-size: 24px;
+  margin-right: 10px;
+  color: #19191d;
+}
+
+.product .card,
+.wishlist .card {
+  border: none;
+}
+
+.product .card:hover {
+  box-shadow: 0 3px 3px 1px rgb(206, 201, 201);
+}
+
+.product .rating span,
+.wishlist .rating span {
+  color: #9da667;
+  margin: 0.1px;
+}
+
+.productreviwno {
+  font-size: 14px;
+}
+
+.product .whishlistbutton {
+  /* width: 80%; */
+  opacity: 0.7;
+  margin-right: 10px;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border: 1px solid gray;
+  bottom: 15px;
+  display: none;
+  border-radius: 3px;
+}
+
+.product .card:hover .whishlistbutton {
+  opacity: 0.85;
+  display: block;
+}
+
+.wishlist .removebtn {
+  margin-top: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.refundask {
+  text-align: end;
+}
+
+.product .productcard {
+  width: 250px !important;
+  height: 460px !important;
+}
+
+.product .productcard .card-text {
+  /* display: flex;
+  flex-direction: column;
+  height: 75%;
+  justify-content: end; */
+  margin-top: auto;
+}
+
+.wishlist .productcard {
+  width: 250px !important;
+  height: 450px !important;
+}
+
+.product .productcardimg,
+.wishlist .productcardimg {
+  width: 250px !important;
+  height: 305px !important;
+}
+
+.product .productcardtitle,
+.wishlist .productcardtitle {
+  font-size: 16px !important;
+  color: #19191d;
+}
+
+@media screen and (max-width: 990px) {
+  .wishlist .productcardimg {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .wishlist .productcard {
+    width: 250px !important;
+    height: 300px !important;
+  }
+  .product .productcard {
+    width: 200px !important;
+    height: 380px !important;
+  }
+  .product .productcardimg {
+    width: 200px !important;
+    height: 250px !important;
+  }
+  .product .productcardtitle {
+    font-size: 14px !important;
+  }
+  .product .productcard .card-body {
+    padding: 10px;
+    padding-bottom: 2px !important;
+  }
+  .product .whishlistbutton {
+    font-size: 10px;
+    /* width: 80%; */
+    opacity: 0.7;
+    margin-right: 2px;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    border: 1px solid gray;
+    bottom: 10px;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .productreviwno {
+    font-size: 14px;
+  }
+}
+
+.card-title {
+  font-weight: normal !important;
+}
+
+@media screen and (max-width: 550px) {
+  .product .card-img-top,
+  .wishlist .card-img-top {
+    height: 200px !important;
+    width: 200px !important;
+  }
+  .wishlist .productcardimg {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .wishlist .productcard {
+    width: 250px !important;
+    height: 280px !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .product .card,
+  .wishlist .card {
+    width: 150px !important;
+  }
+  .product .card-img-top {
+    width: 150px !important;
+  }
+  .wishlist .productcardimg {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .wishlist .productcard {
+    width: 150px !important;
+    height: 280px !important;
+  }
+  .wishlist {
+    margin: 5px;
+  }
+  .wishlist .card-text {
+    font-size: 9px !important;
+  }
+  .wishlist .card-title {
+    font-size: 11px !important;
+  }
+  .wishlist .discountedPrice {
+    font-size: 13px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .product .productmobile450card {
+    width: 150px;
+    height: 260px;
+  }
+  .product .productmobile450card .card-body {
+    padding: 5px;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .product .card,
+  .wishlist .card {
+    width: 130px !important;
+  }
+  .product .card-img-top,
+  .wishlist .card-img-top {
+    width: 130px !important;
+    height: 130px !important;
+  }
+  .product .productmobile450card {
+    width: 150px;
+    height: 220px;
+  }
+}
+.productbuynow_btn {
+  margin-top: auto;
+  /* margin-bottom: 20px; */
+}

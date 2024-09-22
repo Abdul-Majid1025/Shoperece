@@ -1,0 +1,78 @@
+.creatstorecontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.creatstorecontainer form {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    /* margin-top: 10%; */
+    margin-bottom: 10%;
+    height: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+.creatstorecontainer .info {
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.creatstorecontainer label {
+    margin-bottom: 0.5em;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    font-weight: lighter;
+}
+
+.creatstorecontainer input {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.creatstorecontainer input,
+.creatstorecontainer select {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #d6d1d5;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.creatstorecontainer input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    margin-top: 2em;
+    margin-right: 10px;
+}
+
+.creatstorecontainer button {
+    min-width: 100%;
+    cursor: pointer;
+    margin-right: 0.25em;
+    margin-top: 0.5em;
+    padding: 0.938em;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffc444;
+    color: #fefefe;
+}
+
+.creatstorecontainer button:hover {
+    background-color: #fdcb5f;
+    color: #fefefe;
+}
+
+.creatstorecontainer .error {
+    color: #db2269;
+    font-size: 0.5em;
+    display: relative;
+}
+
+.creatstorecontainer .submit {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,13 @@
+.addpaymentscreencontainer {
+    width: 100%;
+    background-color: rgb(251, 251, 255);
+}
+
+.addpaymentscreencontainer .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.addpaymentscreencontainer .container1 {
+    margin: 80px;
+}

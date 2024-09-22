@@ -1,0 +1,64 @@
+.addproductcontainer {
+    background-color: rgb(251, 251, 255);
+    width: 100%;
+}
+
+.addproductcontainer .formcontainer {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-bottom: 1px #bcc2c1 solid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.addproductcontainer .formcontainer .container1 {
+    width: 55%;
+    margin-right: 15px;
+}
+
+.addproductcontainer .formcontainer .container2 {
+    width: 30%;
+}
+
+.addproductcontainer .shipping {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bcc2c1;
+}
+
+.addproductcontainer .pushright {
+    padding-left: 10px;
+}
+
+.addproductcontainer .checkbox {
+    margin-right: 5px;
+}
+
+.addproductcontainer .options {
+    border-top: 1px solid #bcc2c1;
+    padding: 10px 0;
+    border-bottom: 1px solid #bcc2c1;
+}
+
+.addproductcontainer .pushright2 {
+    padding-left: 15px;
+}
+
+.addproductcontainer .addoptionbtn {
+    text-decoration: underline;
+}
+
+.addproductcontainer .collection {
+    border-top: 1px solid #bcc2c1;
+    padding: 10px 0;
+    border-bottom: 1px solid #bcc2c1;
+}
+
+.addproductcontainer .saveproduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

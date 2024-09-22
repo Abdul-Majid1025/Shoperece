@@ -1,0 +1,102 @@
+.cartcontainer {
+  width: 100%;
+  background-color: rgb(251, 251, 255);
+}
+
+.cartcontainer #heading-breadcrumbs {
+  margin-top: 60px;
+  padding: 2rem 0;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.cartcontainer #heading-breadcrumbs .breadcrumb {
+  margin-bottom: 0;
+  background: none;
+  font-size: 0.9rem;
+}
+
+.cartcontainer #heading-breadcrumbs h1 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+}
+
+.cartcontainer #heading-breadcrumbs li {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.cartcontainer #basket thead th {
+  border-top: none;
+  /* border-bottom: #999 3px solid; */
+}
+
+.cartcontainer #basket tfoot th {
+  /* border-top: #999 2px solid; */
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.cartcontainer #order-summary tr td {
+  color: #999;
+}
+
+.cartcontainer #order-summary tr.total {
+  font-size: 1.25rem;
+  color: #555;
+  font-weight: 700;
+}
+
+.cartcontainer #order-summary tr.total td {
+  color: #555;
+}
+
+.cartcontainer .box .box-header {
+  background: #f7f7f7;
+  margin: 20px 0 20px;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.no-horizontal-padding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.bar {
+  padding: 60px 0;
+}
+
+.bar.padding-big {
+  padding: 50px 0;
+}
+
+.cartcontainer .checkoutbtn {
+  color: white !important;
+}
+
+.cartcontainer .continueshopping {
+  color: black !important;
+  background-color: rgb(231, 227, 227);
+}
+
+.cartcontainer .quantity {
+  width: 23%;
+  display: flex;
+}
+
+.cartcontainer .quantity .arrow {
+  cursor: pointer;
+}
+
+.cartcontainer .quantity .value {
+  margin: 0 10px;
+}
+
+.cartcontainer .remove-button {
+  padding-left: 12px;
+  cursor: pointer;
+}
